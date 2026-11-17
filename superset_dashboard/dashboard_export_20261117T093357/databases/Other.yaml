@@ -1,0 +1,15 @@
+database_name: Other
+sqlalchemy_uri: mysql+pymysql://superset_reader:XXXXXXXXXX@172.18.0.1:3306/manufacturing_analytics
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: false
+extra:
+  allows_virtual_table_explore: true
+impersonate_user: false
+configuration_method: sqlalchemy_form
+uuid: e2e84fe1-2631-4d48-adb9-eda76eb8f73c
+version: 1.0.0

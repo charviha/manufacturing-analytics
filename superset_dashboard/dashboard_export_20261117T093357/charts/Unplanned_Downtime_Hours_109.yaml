@@ -1,0 +1,81 @@
+slice_name: Unplanned Downtime (Hours)
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 23__table
+  viz_type: big_number_total
+  slice_id: 109
+  matrixify_enable: false
+  matrixify_mode_columns: disabled
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_all_sort_by_columns: a_to_z
+  matrixify_topn_order_columns: true
+  matrixify_show_column_headers: true
+  matrixify_fit_columns_dynamically: true
+  matrixify_mode_rows: disabled
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_all_sort_by_rows: a_to_z
+  matrixify_topn_order_rows: true
+  matrixify_show_row_labels: true
+  matrixify_row_height: 300
+  matrixify_charts_per_row: 4
+  matrixify_cell_title_template: ''
+  metric:
+    aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: false
+    label: SUM(total_downtime_minutes) / 60.0
+    optionName: metric_zltbegp5t88_s7cbkvwpah
+    sqlExpression: SUM(total_downtime_minutes) / 60.0
+  adhoc_filters:
+  - clause: WHERE
+    comparator: 0
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_tr86mshhzht_qe6e2jsiutb
+    isExtra: false
+    isNew: false
+    operator: ==
+    operatorId: EQUALS
+    sqlExpression: null
+    subject: is_planned
+  - clause: WHERE
+    subject: downtime_date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  header_font_size: 0.4
+  subtitle_font_size: 0.15
+  show_metric_name: false
+  y_axis_format: SMART_NUMBER
+  currency_format:
+    symbolPosition: suffix
+  time_format: smart_date
+  force_timestamp_formatting: false
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 11
+query_context: '{"datasource":{"id":23,"type":"table"},"force":false,"queries":[{"filters":[{"col":"is_planned","op":"==","val":0},{"col":"downtime_date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"SUM(total_downtime_minutes)
+  / 60.0","optionName":"metric_zltbegp5t88_s7cbkvwpah","sqlExpression":"SUM(total_downtime_minutes)
+  / 60.0"}],"annotation_layers":[],"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"23__table","viz_type":"big_number_total","slice_id":109,"matrixify_enable":false,"matrixify_mode_columns":"disabled","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_all_sort_by_columns":"a_to_z","matrixify_topn_order_columns":true,"matrixify_show_column_headers":true,"matrixify_fit_columns_dynamically":true,"matrixify_mode_rows":"disabled","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_all_sort_by_rows":"a_to_z","matrixify_topn_order_rows":true,"matrixify_show_row_labels":true,"matrixify_row_height":300,"matrixify_charts_per_row":4,"matrixify_cell_title_template":"","metric":{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"SUM(total_downtime_minutes)
+  / 60.0","optionName":"metric_zltbegp5t88_s7cbkvwpah","sqlExpression":"SUM(total_downtime_minutes)
+  / 60.0"},"adhoc_filters":[{"clause":"WHERE","comparator":0,"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_tr86mshhzht_qe6e2jsiutb","isExtra":false,"isNew":false,"operator":"==","operatorId":"EQUALS","sqlExpression":null,"subject":"is_planned"},{"clause":"WHERE","subject":"downtime_date","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"header_font_size":0.4,"subtitle_font_size":0.15,"show_metric_name":false,"y_axis_format":"SMART_NUMBER","currency_format":{"symbolPosition":"suffix"},"time_format":"smart_date","force_timestamp_formatting":false,"conditional_formatting":[],"extra_form_data":{},"dashboards":[11],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 89026672-dac1-48c6-acfe-b2659a91e153
+version: 1.0.0
+dataset_uuid: b9e248ca-a764-42f6-adcd-3ed5a66b7d8d

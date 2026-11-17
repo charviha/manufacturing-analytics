@@ -1,0 +1,270 @@
+dashboard_title: Manufacturing Analysis
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: true
+uuid: e6cbd2fb-6e7f-4aab-ba0d-0e158d5ce630
+position:
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-N-6STQVKPW
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Manufacturing Analysis
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-N-6STQVKPW:
+    children:
+    - CHART-G73J2VUK
+    - CHART-1PSLM497
+    - CHART-50TUB9NU
+    - CHART-9XVJGBA9
+    - CHART-XU5ERPQQ
+    - CHART-ZXLPV1UM
+    - CHART-7XTGRDV4
+    - CHART-P2MIDAX6
+    - CHART-AQ1VO0QI
+    - CHART-JBIISUGU
+    - CHART-O39W9JH4
+    - CHART-ZSP2I89Y
+    - CHART-D4PY2KRT
+    - CHART-Q12KMIJ7
+    id: ROW-N-6STQVKPW
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-G73J2VUK:
+    children: []
+    id: CHART-G73J2VUK
+    meta:
+      chartId: 108
+      height: 50
+      sliceName: Scrap Rate (%)
+      uuid: 08a65d1f-7a44-43b4-8e0f-67295025b56e
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-1PSLM497:
+    children: []
+    id: CHART-1PSLM497
+    meta:
+      chartId: 113
+      height: 50
+      sliceName: Production Yield vs Scrap Rate Trend
+      uuid: 5b8a3611-fec9-4373-a1b4-17992d8b7def
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-50TUB9NU:
+    children: []
+    id: CHART-50TUB9NU
+    meta:
+      chartId: 118
+      height: 50
+      sliceName: Scrap Quantity by Product Category
+      uuid: 2770da77-f52d-4403-9576-a7ea5f835d63
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-9XVJGBA9:
+    children: []
+    id: CHART-9XVJGBA9
+    meta:
+      chartId: 117
+      height: 50
+      sliceName: Monthly Customer Satisfaction Trend
+      uuid: 1e68829d-ee4a-490d-a107-64a75b14fd8d
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-XU5ERPQQ:
+    children: []
+    id: CHART-XU5ERPQQ
+    meta:
+      chartId: 105
+      height: 50
+      sliceName: Total Production Runs
+      uuid: 520077ab-91bd-48c9-b036-1164c1923198
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-ZXLPV1UM:
+    children: []
+    id: CHART-ZXLPV1UM
+    meta:
+      chartId: 114
+      height: 50
+      sliceName: Production Output by Manufacturing Line
+      uuid: 7365ac7a-99d9-4d17-b3aa-5722fdce4377
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-7XTGRDV4:
+    children: []
+    id: CHART-7XTGRDV4
+    meta:
+      chartId: 115
+      height: 50
+      sliceName: Unplanned Downtime by Equipment
+      uuid: b3d79751-9b32-47de-9a22-e2d80084a2c2
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-P2MIDAX6:
+    children: []
+    id: CHART-P2MIDAX6
+    meta:
+      chartId: 116
+      height: 50
+      sliceName: Workforce Availability Trend
+      uuid: c8bd27e0-9999-4a08-8d6f-8f8946ed5962
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-AQ1VO0QI:
+    children: []
+    id: CHART-AQ1VO0QI
+    meta:
+      chartId: 109
+      height: 50
+      sliceName: Unplanned Downtime (Hours)
+      uuid: 89026672-dac1-48c6-acfe-b2659a91e153
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-JBIISUGU:
+    children: []
+    id: CHART-JBIISUGU
+    meta:
+      chartId: 111
+      height: 50
+      sliceName: Customer Satisfaction (%)
+      uuid: 9afdd687-b447-47fd-adf7-00522eb9de86
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-O39W9JH4:
+    children: []
+    id: CHART-O39W9JH4
+    meta:
+      chartId: 106
+      height: 50
+      sliceName: Total Units Produced
+      uuid: da5a886e-deb8-4575-9ec5-5f0bec12b363
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-ZSP2I89Y:
+    children: []
+    id: CHART-ZSP2I89Y
+    meta:
+      chartId: 112
+      height: 50
+      sliceName: Monthly Production Output
+      uuid: a09783b7-5299-4cd2-b077-2b3b060e4ef2
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-D4PY2KRT:
+    children: []
+    id: CHART-D4PY2KRT
+    meta:
+      chartId: 107
+      height: 50
+      sliceName: Production Yield (%)
+      uuid: 9b048d92-ae0b-47dc-8444-1c029ee09c02
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+  CHART-Q12KMIJ7:
+    children: []
+    id: CHART-Q12KMIJ7
+    meta:
+      chartId: 110
+      height: 50
+      sliceName: Workforce Availability (%)
+      uuid: 58781317-2fee-4468-ae7c-a0b09ce77ed0
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-6STQVKPW
+metadata:
+  color_scheme_domain: []
+  shared_label_colors:
+  - SUM(total_quantity_produced)
+  map_label_colors: {}
+  label_colors: {}
+  chart_configuration: {}
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope: []
+  native_filter_configuration: []
+  chart_customization_config: []
+  color_scheme: ''
+  refresh_frequency: 0
+  expanded_slices: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+theme_uuid: null
+version: 1.0.0
