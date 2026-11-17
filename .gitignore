@@ -1,0 +1,22 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and credentials
+.env
+.env.*
+config/.env
+config/.env.*
+
+# IDE
+.idea/
+.vscode/
+
+# Temporary files
+*.log
+.DS_Store
+
+# Superset temporary files
+superset_home/
